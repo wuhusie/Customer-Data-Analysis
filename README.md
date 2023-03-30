@@ -1,11 +1,4 @@
-### Context
-
-Typically e-commerce datasets are proprietary and consequently hard to find among publicly available data.  However, [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php) has made this dataset containing actual transactions from 2010 and 2011.  The dataset is maintained  on their site, where it can be found by the title "Online Retail".
-
-### Content
-
-"This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers."
-
+# 客户数据分析项目
 
 数据集包含2010年12月到2011年11月约一年的某电商平台订单记录，共计54万多条数据，8个属性，涉及用户ID、下单时间、地点（国别）、下单商品数量、商品单价、商品代码和描述。
 
@@ -24,6 +17,8 @@ Typically e-commerce datasets are proprietary and consequently hard to find amon
 * 订单号列：一般为6位数，清洗完后发现大部分不符合格式的，前面跟了个C，表示canceled，即为退单号。
 
 * 产品号列：主要由数字构成，但其中有纯英文构成的，筛选出这部分数据，发现是商品产生的附加费用，如邮费、人工费等，这部分由于不是商品，也要进行剔除。
+
+参考文档：
 
 ![hpIBa4](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/hpIBa4.png)
 
